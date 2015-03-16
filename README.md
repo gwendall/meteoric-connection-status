@@ -5,7 +5,7 @@ Installation
 ------------
 
 ``` sh
-meteor add gwendall:bindings
+meteor add gwendall:meteoric-connection-status
 ```
 
 How it works
