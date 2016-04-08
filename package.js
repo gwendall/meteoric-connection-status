@@ -9,7 +9,7 @@ Package.onUse(function (api, where) {
 
   api.use([
     "jquery",
-    "templating",
+    "templating"
   ], "client");
 
   api.addFiles([
