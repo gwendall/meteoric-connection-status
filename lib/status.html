@@ -1,5 +1,11 @@
 <template name="ionConnectionStatus">
   <div class="ion-connection-status text-center padding">
     {{label}}
+    {{#if notConnected}}
+      <span class="reconnect-link">Reconnect</span>
+      or
+      <span class="reload-link">reload</span>
+      .
+    {{/if}}
   </div>
 </template>
